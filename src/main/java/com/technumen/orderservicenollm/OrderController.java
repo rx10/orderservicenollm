@@ -10,7 +10,7 @@ import com.technumen.orderservicenollm.service.OrdServ;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "https://apifrontend.up.railway.app/")
+@CrossOrigin(origins = "https://apifrontend.up.railway.app")
 @RestController
 public class OrderController {
     private final OrderRepo repository;
